@@ -1,5 +1,5 @@
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: "Inter", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -11,9 +11,9 @@ body {
 }
 
 .title {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 18px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
 }
 
 .text-lg {
@@ -49,5 +49,5 @@ input,
   font-weight: 400;
   font-size: 12px;
   line-height: 12px;
+  color: rgba(148, 163, 184);
 }
-

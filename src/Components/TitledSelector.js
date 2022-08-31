@@ -7,23 +7,23 @@ const Select = styled.select`
     -webkit-appearance: none !important; 
     appearance: none !important;
     outline: none;
-    border-radius: 0px;
-    border: solid #152842 1px;
-    background-color: #D9E2EF;
-    color: #666787;
+    border: 1px solid rgba(226, 232, 240);
+    background-color: rgba(248, 250, 252);
+    border-radius: 24px;
+    color: rgba(15, 23, 42);
     &:hover {
-        background-color: #D9E2EFB8;
+        opacity: 0.8;
     }
 `;
 
 function TitledSelector({title, options}) {
     const Title = title === undefined ? 
         (<div></div>) : 
-        (<div>{title}</div>);
+        (<div className='caption'>{title}</div>);
     return (
         <div className='d-flex flex-column gap-2'>
             {Title}
-            <Select className='p-2'>
+            <Select className='py-2 px-3'>
                 {options.map(optionName => {
                     return (
                         <option key={optionName}>{optionName}</option>
