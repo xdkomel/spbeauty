@@ -1,3 +1,9 @@
 body {
   margin: 0;
 }
+.color-steel-gray--200 {
+    color: #E2E8F0;
+}
+.color-steel-gray--400 {
+    color: #94A3B8;
+}
