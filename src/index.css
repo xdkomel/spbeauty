@@ -1,3 +1,11 @@
+.preferences {
+    max-width: 447px;
+  }  
+
 body {
   margin: 0;
 }
+
+.caption color-steel-grey--400 {
+  color: #94A3B8
+  }
