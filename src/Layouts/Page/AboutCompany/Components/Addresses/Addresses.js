@@ -7,8 +7,8 @@ function Addresses() {
       <div className="d-flex flex-column gap-4">
         <div className="title ps-2">Адреса заведений</div>
         <div className="d-inline-flex flex-column gap-3">
-          <ListElement>Санкт-Петербург, Невский пр-т. 28</ListElement>
-          <ListElement>Санкт-Петербург, Казанская ул, 7</ListElement>
+          <ListElement>Санкт-Петербург, Невский пр-т. д. 28</ListElement>
+          <ListElement>Санкт-Петербург, Казанская ул, д. 7</ListElement>
         </div>
       </div>
       <div className="d-inline-end align-self-start mt-auto p-2 bd-highlight">
