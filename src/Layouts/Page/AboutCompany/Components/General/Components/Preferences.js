@@ -3,7 +3,7 @@ import TitledSelector from "../../../../../../Components/TitledSelector";
 import PrimaryButton from "../../../../../../Components/PrimaryButton";
 function Preferences() {
     return (
-        <div className='d-inline-flex flex-column gap-4 pe-5 mt-5'>
+        <div className='d-inline-flex flex-column gap-4 pe-5 mt-5 style-1'>
             <TitledTextInput title='Название компании' def='SPBEAUTY'/>
             <TitledSelector title='Тип организации' options={[
                 'Салон красоты',

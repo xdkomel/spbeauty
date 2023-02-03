@@ -17,10 +17,8 @@ const Input = styled.input`
         opacity: 0.8
     }
     &:focus {
-        border: solid #E2E8F0 1px;
         background-color: #F8FAFC;
         color: #152842;
-        width: 100%;
     }
 `;
 

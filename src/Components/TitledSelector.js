@@ -12,7 +12,7 @@ const Select = styled.select`
     background-color: #F8FAFC;
     color: #0F172A;
     &:hover {
-        background-color: #D9E2EFB8;
+        opacity: 80%
     }
 `;
 
