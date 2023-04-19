@@ -8,7 +8,14 @@ function IconOnlyButton({icon}) {
         }
     `;
     return (
-        <Container><Clickable>{icon}</Clickable></Container>
+        <Container>
+            <Clickable>
+                
+            {icon}
+
+            </Clickable>
+
+        </Container>
     );
 }
 
