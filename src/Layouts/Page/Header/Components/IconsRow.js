@@ -7,7 +7,7 @@ import IconOnlyButton from "../../../../Components/IconOnlyButton";
 const ButtonLeftWrapper = styled.div`
     padding-right:6px;
     &:hover {
-        opacity: 80%;
+        opacity: 100%;
     }
 `;
 const ButtonRightWrapper = styled.div`
