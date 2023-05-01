@@ -11,7 +11,7 @@ const Input = styled.input`
     outline: none;
     border-radius: 24px;
     border: solid #E2E8F0 1px;
-    background-color: none;
+    background-color: #F8FAFC;
     color: #152842;
     width: 100%;
     &:hover {
