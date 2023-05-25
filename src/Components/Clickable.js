@@ -16,5 +16,4 @@ function Clickable(props) {
         <Button className='d-flex'>{props.children}</Button>
     );
 }
-  
-export default Clickable;
+  export default Clickable;
