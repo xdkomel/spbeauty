@@ -10,10 +10,10 @@ function PrimaryButton(props) {
         background: #3B82F6;
         border-radius: 24px;
         box-shadow: inset 0px 1px 2px rgba(10, 15, 26, 0.08);
-        min-width: ${minWidth};
+        min-width: 217px;
         color: white;
         &:hover {
-            background: linear-gradient(180deg, #4D9FF0 0%, #36699D 100%);
+            background: #9BC6F8;
         }
         &:active {
             background: #152842;
